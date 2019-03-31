@@ -1,0 +1,5 @@
+'/personaje', 'application.controllers.personaje.index.Index',
+'/personaje/view/(.+)', 'application.controllers.personaje.view.View',
+'/personaje/edit/(.+)', 'application.controllers.personaje.edit.Edit',
+'/personaje/delete/(.+)', 'application.controllers.personaje.delete.Delete',
+'/personaje/insert', 'application.controllers.personaje.insert.Insert',
